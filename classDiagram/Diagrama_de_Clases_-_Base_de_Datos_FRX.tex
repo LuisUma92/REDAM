@@ -98,8 +98,7 @@ node[near end, below]{#3};
 		%-------------------------------------------------%		
 		\operation{Pastilla()}
 		\operation{$\sim$Pastilla()}
-		\operation[0]{+ setPath() : void}
-		\operation[0]{+ setPastilla() : void}
+		\operation[0]{+ setPastilla(myName : string) : void}
 		\operation{+ setInfo(infoPath="./Informacion.csv" : string) : void}
 		\operation{+ getInfo() : vector<string>}
 		\operation{+ getPastillaPath() : string}
@@ -118,8 +117,10 @@ node[near end, below]{#3};
 		\attribute{- rows : int}
 		\attribute{- cols : int}
 		%-------------------------------------------------%		
-		\operation{+ setPath(tfr\_name : string) : void}
-		\operation{+ setPastilla(tfr\_name : string) : void}
+		\operation{TFR()}
+		\operation{TFR(myName : string)}
+		\operation{$\sim$TFR()}
+		\operation{+ setPastilla(myName : string) : void}
 		\operation{+ getHeader() : vector<string>}
 		\operation{+ getElements() : vector<string>}
 		\operation{+ getRows() : int}
@@ -133,9 +134,8 @@ node[near end, below]{#3};
 		\attribute{- rawData : vector<int>}
 		\attribute{- calibration : float[2][2]}
 		\attribute{- rois : vector<int[2]>}
-		%-------------------------------------------------%		
-		\operation{+ setPath(mca\_name : string) : void}
-		\operation{+ setPastilla(mca\_name : string) : void}
+		%-------------------------------------------------%	
+		\operation{+ setPastilla(myName : string) : void}
 		\operation{+ getFull() : string}
 		\operation{+ getHisto(save = "false" : bool) : void}
 		\operation{+ getRois() : vector<int[2]>}

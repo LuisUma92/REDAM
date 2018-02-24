@@ -96,7 +96,7 @@ public:
 		}
 		myFile.close();
 		return lineasTemp;
-		};
+	};
 };
 
 class TFR : public Pastilla{
