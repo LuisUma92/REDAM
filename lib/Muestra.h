@@ -1,10 +1,10 @@
 #pragma once
-#include "TFR.h"
+#include "Pastilla.h"
 
 class Muestra {
 private:
 	string code;
-	Pastilla pastillas[3] ;
+	TFR  pastillas[3];
 	// Set function for the code
 	void setCode(string sampleName) {
 		code = sampleName;
@@ -30,7 +30,7 @@ public:
 	// Get smaple name on code
 	string getCode() { return code; }
 	// Get the Pastilla especified by the int num wich correspond to the nummber of the tablet
-	Pastilla getSample(int num) { 
+	TFR getSample(int num) { 
 		if (num == 0 || num == 1 || num == 2) {
 			cout << "\n Here is you pastilla P" << num;
 			return  pastillas[num];

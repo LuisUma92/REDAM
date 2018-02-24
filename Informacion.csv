@@ -1,0 +1,154 @@
+Código de la muestra,Código de Muestreo,Tipo,Latitud,Longitud,Fecha de recolección,Hora de recolección ,Dosis mínima (nSv/h),Dosis máxima (nSv/h),Provincia,Cantón,Lugar,Finca,Propietario,Observaciones
+PS0852MY,CHN14-01,Pasto,10.4215,-85.12097,5/14/2014,1:45 p.m,19.6,19.6,Guanacaste,Cañas,Bebedero - Cañas,Finca La Pocha,-,-
+SE0853MY,CHN14-01,Suelo,10.4215,-85.12097,5/14/2014,1:45 p.m,19.6,19.6,Guanacaste,Cañas,Bebedero - Cañas,Finca La Pocha,-,-
+SE0858MY,CHN14-03,Suelo,11.0513,-85.64938,5/15/2014,6:30 a.m,31,31,Guanacaste,La Cruz,Puerto Soley,Hacienda El Cenízaro,Luis Armando Calleja,Suelo sonsowite
+PS0862MY,CHN14-03,Pasto,11.0513,-85.64938,5/15/2014,6:30 a.m,31,31,Guanacaste,La Cruz,Puerto Soley,Hacienda El Cenízaro,Luis Armando Calleja,-
+TI0864MY,CHN14-04,Suelo,11.07789,-85.39037,5/15/2014,11:30 a.m,42,42,Guanacaste,Santa Cecilia,San Antonio,-,Emidio Chavez,-
+PS0865,CHN14-04,Pasto,11.07789,-85.39037,5/15/2014,11:30 a.m,42,42,Guanacaste,Santa Cecilia,San Antonio,-,Emidio Chavez,-
+TI0868MY,CHN14-06,Suelo,10.83467,-85.55769,5/15/2014,4:50 p.m,30,34,Guanacaste,Liberia,La Cruz - Liberia,Finca Corrales Negros,Jose Ignacio Moraga,-
+PS0869MY,CHN14-06,Pasto,10.83467,-85.55769,5/15/2014,4:50 p.m,30,34,Guanacaste,Liberia,La Cruz - Liberia,Finca Corrales Negros,Jose Ignacio Moraga,-
+SE0872MY,CHN14-07,Suelo,10.66392,-85.46866,5/16/2014,7:55 a.m,31,36,Guanacaste,Liberia,Liberia,Finca La Escuelita,Victor Manuel Arias,Dueño super veterinaria Liberia
+PS0873MY,CHN14-07,Pasto,10.66392,-85.46866,5/16/2014,7:55 a.m,31,36,Guanacaste,Liberia,Liberia,Finca La Escuelita,Victor Manuel Arias,-
+PS0875MY,CHN14-08,Pasto,10.53321,-85.25011,5/16/2014,12:00 p.m,39,42,Guanacaste,Bagaces,Bagaces,Finca El Rodeo,-,-
+TI0876MY,CHN14-08,Suelo,10.53321,-85.25011,5/16/2014,12:00 p.m,39,42,Guanacaste,Bagaces,Bagaces,Finca El Rodeo,-,Lugar con problemas de altas concentraciones de Arsénico
+PS0880MY,CHN14-09,Pasto,10.72283,-85.19257,5/16/2014,3:15 p.m,28,32,Guanacaste,Bagaces,Guayabo,Finca La Mina,Marco Aurelio Alvarado,-
+TI0881MY,CHN14-09,Suelo,10.72283,-85.19257,5/16/2014,3:15 p.m,28,32,Guanacaste,Bagaces,Guayabo,Finca La Mina,Marco Aurelio Alvarado,-
+PS0886JN,CHS14-01,Pasto,10.22244,-85.00571,5/28/2014,2:25 p.m,28,30,Guanacaste,Las Juntas de Abangares,La Irma,Finca Santa Elena,Hugo Rivera Molina,-
+TI0887JN,CHS14-01,Suelo,10.22244,-85.00571,5/28/2014,2:25 p.m,28,30,Guanacaste,Las Juntas de Abangares,La Irma,Finca Santa Elena,Hugo Rivera Molina,-
+TI0890JN,CHS14-02,Suelo,10.53135,-85.00797,5/28/2014,4:50 p.m,32,40,Guanacaste,Tilaran,Los Ángeles,La Palma,William Elizondo,-
+PS0891JN,CHS14-02,Pasto,10.53135,-85.00797,5/28/2014,4:50 p.m,32,40,Guanacaste,Tilaran,Los Ángeles,La Palma,William Elizondo,-
+SE0894JN,CHS14-04,Suelo,10.39901,-85.58557,5/29/2014,1:36 p.m,12,15,Guanacaste,Carrillo,Belén,Los Mangos,Alfredo Contreras,-
+PS0895JN,CHS14-04,Pasto,10.39901,-85.58557,5/29/2014,1:36 p.m,12,15,Guanacaste,Carrillo,Belén,Los Mangos,Alfredo Contreras,-
+TI0898JN,CHS14-05,Suelo,10.15007,-85.46539,5/29/2014,4:00 p.m,12,19,Guanacaste,Nicoya,Nicoya,"Hacienda Los Pericos ""5351""",Juan Rodríguez,-
+PS0899JN,CHS14-05,Pasto,10.15007,-85.46539,5/29/2014,4:00 p.m,12,19,Guanacaste,Nicoya,Nicoya,"Hacienda Los Pericos ""5351""",Juan Rodríguez,-
+TI0901JN,CHS14-06,Suelo,10.02271,-85.26058,5/30/2014,11:00 a.m,10,13,Guanacaste,Nandayure,Carmona,Finca Santa Rita,Miguel Pozuelo,-
+PS0902JN,CHS14-06,Pasto,10.02271,-85.26058,5/30/2014,11:00 a.m,10,13,Guanacaste,Nandayure,Carmona,Finca Santa Rita,Miguel Pozuelo,-
+TI0904JN,CHS14-07,Suelo,9.76984,-84.9731,5/30/2014,1:40 p.m,42,52,Puntarenas,Paquera,Santa Lucía,-,UHL de San Ramón S.A,-
+PS0905JN,CHS14-07,Pasto,9.76984,-84.9731,5/30/2014,1:40 p.m,42,52,Puntarenas,Paquera,Santa Lucía,-,UHL de San Ramón S.A,-
+SE0910OC,BRU01-14,Suelo,9.72058,-84.63412,10/1/2014,4:15 p.m,40,45,Puntarenas ,Tárcoles,Quebrada Ganado,Finca Agujas ,-,-
+PS0911OC,BRU01-14,Pasto,9.72058,-84.63412,10/1/2014,4:15 p.m,40,45,Puntarenas ,Tárcoles,Quebrada Ganado,Finca Agujas ,-,-
+SE0913OC,BRU02-14,Suelo,9.56431,-84.58553,10/1/2014,5:20 p.m,14,17,Puntarenas,Garabito,Playa Hermosa,-,-,-
+PS0914OC,BRU02-14,Pasto,9.56431,-84.58553,10/1/2014,5:20 p.m,14,17,Puntarenas,Garabito,Playa Hermosa,-,-,-
+SE0916OC,BRU03-14,Suelo,9.46939,-84.11177,10/2/2014,9:20 a.m,20,26,Puntarenas ,Aguirre,Quepos,-,Cristhian Cutz,-
+PS0917OC,BRU03-14,Pasto,9.46939,-84.11177,10/2/2014,9:20 a.m,20,26,Puntarenas ,Aguirre,Quepos,-,Cristhian Cutz,-
+SE0919OC,BRU04-14,Suelo,9.01019,-83.58051,10/2/2014,11:20 a.m,46,52,Puntarenas,Puerto Cortés,Tagual,Finca Betania,-,-
+PS0920OC,BRU04-14,Pasto,9.01019,-83.58051,10/2/2014,11:20 a.m,46,52,Puntarenas,Puerto Cortés,Tagual,Finca Betania,-,-
+SE0922OC,BRU05-14,Suelo,8.63214,-83.06921,10/2/2014,2:25 p.m,20,27,Puntarenas ,Golfito,-,-,-,-
+PS0923OC,BRU05-14,Pasto,8.63214,-83.06921,10/2/2014,2:25 p.m,20,27,Puntarenas ,Golfito,-,-,-,-
+SE0928OC,BRU09-14,Suelo,8.87121,-83.06015,10/3/2014,9:35 a.m,27,34,Puntarenas,Coto Brus,Sabanilla de Limoncito,-,-,-
+PS0929OC,BRU09-14,Pasto,8.87121,-83.06015,10/3/2014,9:35 a.m,27,34,Puntarenas,Coto Brus,Sabanilla de Limoncito,-,-,-
+SE0932OC,BRU11-14,Suelo,9.16342,-83.35253,10/3/2014,11:45 a.m,63,72,Puntarenas ,Buenos Aires,Buenos Aires,-,-,-
+PS0933OC,BRU11-14,Pasto,9.16342,-83.35253,10/3/2014,11:45 a.m,63,72,Puntarenas ,Buenos Aires,Buenos Aires,-,-,-
+SE0935OC,BRU12-14,Suelo,9.33533,-83.66167,10/3/2014,3:15 p.m ,57,67,San José,Pérez Zeledón,Palmares. San Isidro de El General,-,Miguel Ángel Fernández,-
+PS0936OC,BRU12-14,Pasto,9.33533,-83.66167,10/3/2014,3:15 p.m ,57,67,San José,Pérez Zeledón,Palmares. San Isidro de El General,-,Miguel Ángel Fernández,-
+SE0940NO,HUECAR14-01,Suelo,10.20399,-83.86117,11/19/2014,12:00 m.d,83,83,Limón,Guápiles,La marina,Finca el Zorro ,Pegud S.A,-
+PS0941NO,HUECAR14-01,Pasto,10.20399,-83.86117,11/19/2014,12:00 m.d,83,83,Limón,Guápiles,La marina,Finca el Zorro ,Pegud S.A,-
+SE0944NO,HUECAR14-03,Suelo,10.49726,-83.61752,11/19/2014,3:20 p.m,84,84,Limón,Pococí,Cariari,El Maguito,Victor Manuel Pérez,-
+PS0945NO,HUECAR14-03,Pasto,10.49726,-83.61752,11/19/2014,3:20 p.m,84,84,Limón,Pococí,Cariari,El Maguito,Victor Manuel Pérez,-
+SE0948NO,HUECAR14-04,Suelo,10.41165,-83.68891,11/19/2014,4:40 p.m,59,59,Limón,Pococí,Cariari campo 2 ,-,Analía Rivera García,-
+PS0949NO,HUECAR14-04,Pasto,10.41165,-83.68891,11/19/2014,4:40 p.m,59,59,Limón,Pococí,Cariari campo 2 ,-,Analía Rivera García,-
+SE0952NO,HUECAR14-06,Suelo,10.31684,-83.92284,11/20/2014,9:00 a.m,55,59,Heredia,Sarapiquí,Río Frío La Victoria,Campus UNA,UNA,-
+PS0953NO,HUECAR14-06,Pasto,10.31684,-83.92284,11/20/2014,9:00 a.m,55,59,Heredia,Sarapiquí,Río Frío La Victoria,Campus UNA,UNA,-
+SE0955NO,HUECAR14-07,Suelo,10.56759,-84.00177,11/20/2014,11:41 a.m,84,107,Heredia,Sarapiquí,Sardinal Colonia San José,Finca Quis-Quis,Ganadería los Cascabeles,-
+PS0956NO,HUECAR14-07,Pasto,10.56759,-84.00177,11/20/2014,11:41 a.m,84,107,Heredia,Sarapiquí,Sardinal Colonia San José,Finca Quis-Quis,Ganadería los Cascabeles,-
+SE0958NO ,HUECAR14-08,Suelo,10.68542,-83.9287,11/20/2014,1:02 p.m,65,71,Heredia,Sarapiquí,Cerca de la desembocadura del Río Sarapiquí La Ceiba,Las Marías,Patricia Gómez Artavia,-
+PS0959NO,HUECAR14-08,Pasto,10.68542,-83.9287,11/20/2014,1:02 p.m,65,71,Heredia,Sarapiquí,Cerca de la desembocadura del Río Sarapiquí La Ceiba,Las Marías,Patricia Gómez Artavia,-
+SE0961NO,HUECAR14-09,Suelo,10.71854,-83.89265,11/20/2014,4:05 p.m ,52,69,Heredia,Sarapiquí,Trocha,-,Luis Sequeira,-
+PS0962NO,HUECAR14-09,Pasto,10.71854,-83.89265,11/20/2014,4:05 p.m ,52,69,Heredia,Sarapiquí,Trocha,-,Luis Sequeira,-
+SE0964NO,HUECAR14-10,Suelo,10.45242,-84.01899,11/21/2014,8:28 a.m,54,62,Heredia,Sarapiquí Puerto Viejo,Barrio Jardín,Finca La Flor,Jorge Hernández Gómez,-
+PS0965NO,HUECAR14-10,Pasto,10.45242,-84.01899,11/21/2014,8:28 a.m,54,62,Heredia,Sarapiquí Puerto Viejo,Barrio Jardín,Finca La Flor,Jorge Hernández Gómez,-
+SE0967NO,HUECAR14-11,Suelo,10.66865,-83.83713,11/21/2014,11:43 a.m,84,93,Heredia,Sarapiquí Puerto Viejo,ALDEA,-,Jimmy Guevara,-
+PS0968NO,HUECAR14-11,Pasto,10.66865,-83.83713,11/21/2014,11:43 a.m,84,93,Heredia,Sarapiquí Puerto Viejo,ALDEA,-,Jimmy Guevara,-
+SE0970NO,HUECAR14-12,Suelo,10.57246,-83.85233,11/21/2014,1:07 p.m ,74,86,Heredia,Sarapiquí,Llanuras del Gaspar en juntas de Gaspar ,Finca IGUAZU,Emmanuel Herrera,-
+PS0971NO,HUECAR14-12,Pasto,10.57246,-83.85233,11/21/2014,1:07 p.m ,74,86,Heredia,Sarapiquí,Llanuras del Gaspar en juntas de Gaspar ,Finca IGUAZU,Emmanuel Herrera,-
+SE0973NO,HUECAR14-13,Suelo,10.44274,-83.83438,11/21/2014,2:30p.m ,82,99,Limón,Pococí,Ticabán ,-,Jenaro Vargas,-
+PS0974NO ,HUECAR14-13,Pasto,10.44274,-83.83438,11/21/2014,2:30p.m ,82,99,Limón,Pococí,Ticabán ,-,Jenaro Vargas,-
+SE0977NO,HUECAR14-15,Suelo,10.34653,-84.16831,11/22/2014,9:57 a.m,45,69,Alajuela ,-,Corazón de Jesús,La marchita,Eduardo Arguedas,-
+PS0978NO,HUECAR14-15,Pasto,10.34653,-84.16831,11/22/2014,9:57 a.m,45,69,Alajuela ,-,Corazón de Jesús,La marchita,Eduardo Arguedas,-
+SE0982EN,HUENOR01-15,Suelo,10.83668,-85.03532,1/27/2015,4:30 p.m,28,30,Alajuela ,Upala,Canalete,"Finca Amish,Finca la Estrella",-,-
+PS0983EN,HUENOR01-15,Pasto,10.83668,-85.03532,1/27/2015,4:30 p.m,28,30,Alajuela ,Upala,Canalete,"Finca Amish,Finca la Estrella",-,-
+SE0986EN,HUENOR02-15,Suelo,10.89601,-85.16377,1/28/2015,7:40 a.m,40,50,Alajuela ,Upala,Cartago Norte,Finca los Cartagos,-,-
+PS0987EN,HUENOR02-15,Pasto,10.89601,-85.16377,1/28/2015,7:40 a.m,40,50,Alajuela ,Upala,Cartago Norte,Finca los Cartagos,-,-
+SE0990EN,HUENOR03-15,Suelo,10.98671,-85.08102,1/28/2015,9:22 a.m,35,45,Alajuela ,Upala,San Ramón,Finca El Paraíso,William Noguera,-
+PS0991EN,HUENOR03-15,Pasto,10.98671,-85.08102,1/28/2015,9:22 a.m,35,45,Alajuela ,Upala,San Ramón,Finca El Paraíso,William Noguera,-
+SE0995EN,HUENOR05-15,Suelo,10.88592,-84.82214,1/28/2015,12:45 p.m,36,47,Alajuela ,-,Nueva Esperanza,Los Primos/Finca Aguas Negras,-,-
+PS0996EN,HUENOR05-15,Pasto,10.88592,-84.82214,1/28/2015,12:45 p.m,36,47,Alajuela ,-,Nueva Esperanza,Los Primos/Finca Aguas Negras,-,-
+SE0998EN,HUENOR06-15,Suelo,10.97933,-84.67736,1/28/2015,2:05 p.m,26,35,Alajuela ,Los chiles,El Jobo,-,Elizabeth Corella,-
+PS0999EN,HUENOR06-15,Pasto,10.97933,-84.67736,1/28/2015,2:05 p.m,26,35,Alajuela ,Los chiles,El Jobo,-,Elizabeth Corella,-
+SE1001EN,HUENOR07-15,Suelo,10.98215,-84.67736,1/28/2015,4:55 p.m,43,54,Alajuela ,Los Chiles,Santa Fe,Finca San Ramón,Orlando Martin,-
+PS1002EN,HUENOR07-15,Pasto,10.98215,-84.67736,1/28/2015,4:55 p.m,43,54,Alajuela ,Los Chiles,Santa Fe,Finca San Ramón,Orlando Martin,-
+SE1006EN,HUENOR09-15,Suelo,10.83588,-84.51109,1/29/2015,10:15 a.m,42,52,Alajuela ,San carlos,San Cristóbal de Pocosol,Finca los Carballos,-,-
+PS1007EN,HUENOR09-15,Pasto,10.83588,-84.51109,1/29/2015,10:15 a.m,42,52,Alajuela ,San carlos,San Cristóbal de Pocosol,Finca los Carballos,-,-
+SE1009EN,HUENOR10-15,Suelo,10.89639,-84.41616,1/29/2015,1:30 p.m,52,62,Alajuela ,San Carlos,La Guaria de Pocosol,Ganadería el Conchito,José Joaquín Salaz,-
+PS1010EN,HUENOR10-15,Pasto,10.89639,-84.41616,1/29/2015,1:30 p.m,52,62,Alajuela ,San Carlos,La Guaria de Pocosol,Ganadería el Conchito,José Joaquín Salaz,-
+SE1012EN,HUENOR11-15,Suelo,10.71774,-84.36139,1/29/2015,4:30 p.m ,46,59,Alajuela ,Coope Vega,Limoncito,-,Vicente Miguel Carranza,-
+PS1013EN,HUENOR11-15,Pasto,10.71774,-84.36139,1/29/2015,4:30 p.m ,46,59,Alajuela ,Coope Vega,Limoncito,-,Vicente Miguel Carranza,-
+SE1016EN,HUENOR13-15,Suelo,10.69851,-84.55027,1/30/2015,7:50 a.m,32,42,Alajuela ,Los Chiles,San Humberto,Finca Villa Arrieta,-,-
+PS1017EN,HUENOR13-15,Pasto,10.69851,-84.55027,1/30/2015,7:50 a.m,32,42,Alajuela ,Los Chiles,San Humberto,Finca Villa Arrieta,-,-
+SE1019EN,HUENOR14-15,Suelo,10.70989,-84.67844,1/30/2015,9:00 a.m,36,46,Alajuela ,Los Chiles,San Jorge,-,Godofredo Hernández M,-
+PS1020EN,HUENOR14-15,Pasto,10.70989,-84.67844,1/30/2015,9:00 a.m,36,46,Alajuela ,Los Chiles,San Jorge,-,Godofredo Hernández M,-
+SE1023EN,HUENOR15-15,Suelo,10.71159,-84.86777,1/30/2015,11:50 a.m,23,33,Alajuela ,Guatuso,Entrada Guayabito,Agropecuaria Albata,-,-
+SE1026EN,HUENOR16-15,Suelo,10.56595,-84.72411,1/30/2015,1:25 p.m,16,26,Alajuela ,-,Linda Vista de Venado,-,Baudilio Mora Zamora,-
+PS1027EN,HUENOR16-15,Pasto,10.56595,-84.72411,1/30/2015,1:25 p.m,16,26,Alajuela ,-,Linda Vista de Venado,-,Baudilio Mora Zamora,-
+SE1029EN,HUENOR17-15,Suelo,10.55053,-84.49364,1/30/2015,3:50 p.m ,20,30,Alajuela ,Pocosol,Esteritos,Finca San Miguel,Julia Gonzáles e hijas,-
+PS1030EN,HUENOR17-15,Pasto,10.55053,-84.49364,1/30/2015,3:50 p.m ,20,30,Alajuela ,Pocosol,Esteritos,Finca San Miguel,Julia Gonzáles e hijas,-
+SE1032EN,HUENOR18-15,Suelo,10.44636,-84.34284,1/30/2015,4:55 p.m,37,50,Alajuela ,Aguas Zarcas,San José,Finca la Negrita,Leticia Herrera,-
+PS1033EN,HUENOR18-15,Pasto,10.44636,-84.34284,1/30/2015,4:55 p.m,37,50,Alajuela ,Aguas Zarcas,San José,Finca la Negrita,Leticia Herrera,-
+SE1035EN,HUENOR19-15,Suelo,10.36257,-84.46661,1/31/2015,10:00 a.m,36,46,Alajuela ,San Carlos ,Florencia,Maderera Florencia,Alonso Aguilar,-
+PS1036EN,HUENOR19-15,Pasto,10.36257,-84.46661,1/31/2015,10:00 a.m,36,46,Alajuela ,San Carlos ,Florencia,Maderera Florencia,Alonso Aguilar,-
+SE1043MR,HUEATLAN02-15,Suelo,9.62311,-82.85756,3/5/2015,4:50 p.m ,36,47,Limón,Talamanca,Bribri,Colegio Técnico Profesional de Talamanca,-,-
+PS1044MR,HUEATLAN02-15,Pasto,9.62311,-82.85756,3/5/2015,4:50 p.m ,36,47,Limón,Talamanca,Bribri,Colegio Técnico Profesional de Talamanca,-,-
+SE1048MR,HUEATLAN04-15,Suelo,9.7368,-82.96658,3/6/2015,10:50 a.m ,41,51,Limón,La Estrella,Pandora,Finca Pandora,María Eugenia Herrera,-
+PS1049MR,HUEATLAN04-15,Pasto,9.7368,-82.96658,3/6/2015,10:50 a.m ,41,51,Limón,La Estrella,Pandora,Finca Pandora,María Eugenia Herrera,-
+SE1051MR,HUEATLAN05-15,Suelo,9.87276,-83.01149,3/6/2015,12:45 p.m ,39,55,Limón,Batama,Bananito Norte,-,-,-
+PS1052MR,HUEATLAN05-15,Pasto,9.87276,-83.01149,3/6/2015,12:45 p.m ,39,55,Limón,Batama,Bananito Norte,-,-,-
+SE1056MR,HUEATLAN07-15,Suelo,10.08817,-83.34553,3/6/2015,5:50 p.m,27,36,Limón,Matina,Batán,Colegio Técnico Profesional de Batán,-,-
+PS1057MR,HUEATLAN07-15,Pasto,10.08818,-83.34554,3/6/2015,5:50 p.m,27,36,Limón,Matina,Batán,Colegio Técnico Profesional de Batán,-,-
+SE1062MR,HUEATLAN09-15,Suelo,10.138,-83.50259,3/7/2015,10:00 a.m,50,62,Limón,Siquirres,El Carmen,-,-,-
+PS1063MR,HUEATLAN09-15,Pasto,10.138,-83.50259,3/7/2015,10:00 a.m,50,62,Limón,Siquirres,El Carmen,-,-,-
+SE1065AG,HUECAR15-01,Suelo,10.20393,-83.86119,8/27/2015,10:40 a.m,88,106,Limón,Pococí,La marina,Finca el Zorro ,Pegud S.A,-
+PS1066AG,HUECAR15-01,Pasto,10.20393,-83.86119,8/27/2015,10:40 a.m,88,106,Limón,Pococí,La marina,Finca el Zorro ,Pegud S.A,-
+SE1067AG,HECAR15-02,Suelo,-,-,-,-,83,95,Limón,Pococí,La marina,Finca el Zorro ,-,-
+SE1069AG,HUECAR15-04,Suelo,10.44249,-83.83466,27/082015,3:33 p.m,76,86,Limón,Pococí,Ticabán ,-,Jenaro Vargas,-
+PS1070AG,HUECAR15-04,Pasto,10.44249,-83.83466,27/082015,3:33 p.m,76,86,Limón,Pococí,Ticabán ,-,Jenaro Vargas,-
+SE1071AG,HUECAR15-05,Suelo,10.71867,-83.89252,8/28/2015,10:15 a.m ,65,75,Heredia,Sarapiquí,La Trocha ,-,"Walter Sequeira, Luis Carlos Sequeira",-
+PS1072AG,HUECAR15-05,Pasto,10.71867,-83.89252,8/28/2015,10:15 a.m ,65,75,Heredia,Sarapiquí,La Trocha ,-,"Walter Sequeira, Luis Carlos Sequeira",-
+SE1073AG,HUECAR15-06,Suelo,10.68548,-83.92863,8/28/2015,15:45,67,86,Heredia,Sarapiquí,Cerca de la desembocadura del Río Sarapiquí La Ceiba,Las Marías,Patricia Gonzáles Artavia,-
+PS1074AG,HUECAR15-06,Pasto,10.68548,-83.92863,8/28/2015,15:45,67,86,Heredia,Sarapiquí,Cerca de la desembocadura del Río Sarapiquí La Ceiba,Las Marías,Patricia Gonzáles Artavia,-
+PS1076SE,HUENOR01-15B,Pasto,10.36218,-84.46661,9/10/2015,2:30 p.m ,42,51,Alajuela ,San Carlos,Florencia,Maderera Florencia,Alonso Aguilar,-
+SE1077SE,HUENOR01-15B,Suelo,10.36218,-84.46661,9/10/2015,2:30 p.m ,42,51,Alajuela ,San Carlos,Florencia,Maderera Florencia,Alonso Aguilar,-
+PS1078SE,HUENOR02-15B,Pasto,10.55053,-84.49335,9/10/2015,3:45 p.m,23,30,Alajuela ,Pocosol,Esteritos,Finca San Miguel,Julia Gonzáles e hijas,-
+SE1079SE,HUENOR02-15B,Suelo,10.55053,-84.49335,9/10/2015,3:45 p.m,23,30,Alajuela ,Pocosol,Esteritos,Finca San Miguel,Julia Gonzáles e hijas,-
+PS1080SE,HUENOR03-15B,Pasto,10.71775,-84.37048,9/11/2015,12:00 m.d,57,65,Alajuela ,Coopevega,Limoncito,-,-,-
+SE1081SE,HUENOR03-15B,Suelo,10.71775,-84.37048,9/11/2015,12:00 m.d,57,65,Alajuela ,Coopevega,Limoncito,-,-,-
+PS1082SE,HUENOR04-15B,Pasto,10.71008,-84.67903,9/11/2015,4:07 p.m,26,35,Alajuela ,Los Chiles,San Jorge,Finca los Cadros,Godofredo Hernández M,-
+SE1083SE,HUENOR04-15B,Suelo,10.71008,-84.67903,9/11/2015,4:07 p.m,26,35,Alajuela ,Los Chiles,San Jorge,Finca los Cadros,Godofredo Hernández M,-
+SE1085OC,CORO01-15,Suelo,9.98419,-83.98135,10/16/2015,10:00 a.m,62,72,San José,Coronado,San Rafael,"Lluvia de Oro, Las Nubes",Marco -> amigo Francisco,-
+PS1086OC,CORO01-15,Pasto,9.98419,-83.98135,10/16/2015,10:00 a.m,62,72,San José,Coronado,San Rafael,"Lluvia de Oro, Las Nubes",Marco -> amigo Francisco,-
+SE1089OC,TURRU01-15,Suelo,-,-,10/18/2015,-,114,130,San José,Turrubares,San Pablo,-,-,-
+PS1090OC,TURRU01-15,Pasto,-,-,10/18/2015,-,114,130,San José,Turrubares,San Pablo,-,-,-
+SE1093OC,TURRU02-15,Suelo,-,-,10/19/2015,-,66,83,San José,Turrubares,San Pabo,-,-,-
+SE1098AB,CEN01-16,Suelo,9.82205,-83.55942,4/5/2016,3:57 p.m ,24,34,Cartago,Turrialba ,"Platanillo, La Suiza ",-,-,-
+SE1099AB,CEN02-16,Suelo,9.87986,-83.65499,4/6/2016,11:24 a.m ,80,105,Cartago,Turrialba ,-,Catie 2,Alejandro Molina,-
+PS1101AB,CEN02-16,Pasto,9.87986,-83.65499,4/6/2016,11:24 a.m ,80,105,Cartago,Turrialba ,-,Catie 2,Alejandro Molina,-
+SE1102AB,CEN03-16,Suelo,9.89261,-83.6695,4/6/2016,12:16 p.m ,72,97,Cartago,Turrialba ,-,Catie 2,Alejandro Molina ,-
+SE1104AB,CEN04-16,Suelo,9.89131,-83.75453,4/6/2016,2:30 p.m ,42,59,Cartago,Turrialba,Juan Viñas ,Ingenio de Juan Viñas,-,-
+SE1106AB,CEN05-16,Suelo,9.382838,-83.8089,4/6/2016,03:51 p.m,34,44,Cartago,Cachí,-,La Casona ,-,-
+SE1108AB,CEN06-16,Suelo,9.78261,-83.7647,4/12/2016,11:48 a.m ,21,30,Cartago,Pejibaye,Carretera a Tapantí,-,-,-
+SE1110AB,CEN07-16,Suelo,9.79463,-83.73219,4/12/2016,01:05 p.m ,26,34,Cartago,-,Humo,-,-,-
+SE1112AB,CEN08-16,Suelo,9.84072,-83.78128,4/12/2016,2:37 p.m ,43,51,Cartago,-,Urasca,-,-,-
+SE1114AB,CEN09-16,Suelo,9.78059,-83.84034,4/12/2016,4:26 p.m ,-,-,Cartago,Orosí,-,Colegio Técnico Profesional de Orosí ,-,-
+SE1115AB,CEN10-16,Suelo,9.91917,-83.87549,4/13/2016,10:34 a.m ,63,84,Cartago,-,Potrero Cerrado ,-,-,-
+SE1117AB,CEN11-16,Suelo,9.89149,-84.01347,4/13/2016,12:09 p.m ,87,106,Cartago,-,Patarra,-,-,-
+SE1119AB,CEN17-16,Suelo,9.89624,-84.17738,4/26/2016,12:00 m.d,21,29,San José ,Santa Ana,Salitral,-,Don Oscar,-
+SE1120AB,CEN17-16,Suelo,9.89624,-84.17738,4/26/2016,12:00 m.d,21,29,San José ,Santa Ana,Salitral,-,Don Oscar,-
+PS1121AB,CEN17-16,Pasto,9.89624,-84.17738,4/26/2016,12:00 m.d,21,29,San José ,Santa Ana,Salitral,-,Don Oscar,-
+SE1123AB,CEN18-16,Suelo,9.91606,84.24747,4/26/2016,10:00 a.m ,69,90,San José ,Mora,Ciudad Colón,-,-,-
+SE1125AB,CEN19-16,Suelo,9.80024,84.03133,4/27/2016,10:45 a.m,64,76,Cartago,El Guarco,Corralillo,Finca los Alpinos,-,-
+SE1127AB,CEN20-16,Suelo,9.80527,84.15566,4/27/2016,12:35 p.m ,13,21,San José ,Acosta,San Ignacio,-,-,-
+PS1135NO,CENTRAL-A1,Pasto,-,-,-,-,-,-,-,-,-,-,-,-
+SE1136NO,CENTRAL-A1,Suelo,-,-,-,-,-,-,-,-,-,-,-,-
+PS1138NO,CENTRAL-A2,Pasto,-,-,-,-,-,-,-,-,-,-,-,-
+SE1139NO,CENTRAL-A2,Suelo,-,-,-,-,-,-,-,-,-,-,-,-
+SE1140NO,CENTRAL-A3,Suelo,-,-,-,-,-,-,-,-,-,-,-,-
+SE1141NO,CENTRAL-A4,Suelo,-,-,-,-,-,-,-,-,-,-,-,-

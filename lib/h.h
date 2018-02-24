@@ -15,6 +15,6 @@ This file includes all the header necesary for the program
 using namespace std;
 //=================================
 //  Include Pastilla class
-#include "TFR.h"
+#include "Pastilla.h"
 #include "Muestra.h"
 //#endif

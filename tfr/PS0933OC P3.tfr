@@ -1,0 +1,93 @@
+XRS_TFR V1.33
+XRF Thin-Film Report File
+Comment line
+"0.0","0.0","0.0"
+
+Layer Table ===================================================================
+1
+"Thick","Type","Thick.Error","Thick.Units","Density","Fixed","Norm.Flag","Total"
+0,"Bulk",0,"mg/cm2",0,"No","On",100
+
+Sample Table ==================================================================
+11
+"Layer","Component","Type","Conc.","Conc.Error","Units","Mole.Conc.","Mole% Err."
+1,"K","Calc",3.973699,0,"wt.%",3.178876,0
+1,"Ca","Calc",.2642895,0,"wt.%",.2062557,0
+1,"Mn","Calc",.02616,1.076411E-03,"wt.%",1.489366E-02,6.128327E-04
+1,"Fe","Calc",1577.044,25.98305,"ppm",.0883272,1.455261E-03
+1,"Ni","Calc",2.606856,1.382022,"ppm",1.389198E-04,7.364819E-05
+1,"Cu","Calc",4.476482,.5968692,"ppm",2.203348E-04,2.937822E-05
+1,"Zn","Calc",17.03546,5.544478,"ppm",8.148276E-04,2.651995E-04
+1,"Rb","Calc",26.03571,3.711715,"ppm",9.528036E-04,1.358341E-04
+1,"Sr","Calc",26.30178,2.135806,"ppm",9.388874E-04,7.624129E-05
+1,"Si","SIRFP",0,0,"wt.%",0,0
+1,"P","SIRFP",95.5705,0,"wt.%",96.50858,0
+
+Element Table =================================================================
+9
+"Elmt","Line","Cond.Code","Intensity","Int.Err","Back.Int","Back.Err","n-sigma","Type","Int.Method","Ratio Method","ROI Low","High","Chi2","Quant.Meth.","Conc","Error","MDL","Atomic%","TCC","TCC Error","CC","CC2","CC3","LowMT","HighMT"
+"K ","Ka",1,184.7773,3.253761,12.82323,.2380804,0,"IntensThresh","Gaussian","None",3.224485,3.400429,.0839778,"SIRFP",3.973699,0,1.108211E-02,4.032982,160943.1,2810.329,1156.569,0,0,0,0
+"Ca","Ka",1,57.24909,2.044282,11.69164,.2273331,0,"IntensThresh","Gaussian","None",3.5995,3.780319,2.391543E-02,"SIRFP",.2642895,0,2.27157E-03,.2616729,401337.1,5787.76,3799.747,0,0,0,0
+"Mn","Ka",1,52.59086,1.959449,24.91712,.3318745,0,"IntensThresh","Gaussian","None",5.788303,5.998248,2.225768E-02,"SIRFP",.02616,1.076411E-03,3.57317E-04,1.889532E-02,336067.9,5111.771,7558.133,0,0,0,0
+"Fe","Ka",1,666.9058,5.313568,29.56284,.3614914,0,"IntensThresh","Gaussian","None",6.289094,6.505564,1.380358E-02,"SIRFP",.1577044,2.598305E-03,1.850246E-04,.1120591,510428.9,20865.2,12857.18,0,0,0,0
+"Ni","Ka",1,2.848775,1.509653,33.1742,.3829351,0,"IntensThresh","Gaussian","None",7.354451,7.584724,.1492269,"SIRFP",2.606856E-04,1.382022E-04,7.584663E-05,1.762451E-04,782304.9,232369,23777.38,0,0,0,0
+"Cu","Ka",1,10.50974,1.33383,37.95253,.4095861,0,"IntensThresh","Gaussian","None",7.918921,8.156763,.0306728,"SIRFP",4.476482E-04,5.968692E-05,3.77609E-05,2.795348E-04,1359199,163727.8,44187.16,0,0,0,0
+"Zn","Ka",1,11.02345,1.466623,46.39084,.4528361,0,"IntensThresh","Gaussian","None",8.504457,8.750338,1.431058E-02,"SIRFP",1.703546E-03,5.544478E-04,1.514711E-04,1.033757E-03,317223.5,8152.627,10898.93,0,0,0,0
+"Rb","Ka",1,27.24853,2.077634,90.09415,.6310637,0,"IntensThresh","Gaussian","None",13.20637,13.52494,2.406801E-02,"SIRFP",2.60357E-03,3.711715E-04,1.305124E-04,1.208805E-03,419822.3,32899.75,12378.49,0,0,0,0
+"Sr","Ka",1,28.23866,2.175217,100.137,.6653073,0,"IntensThresh","Gaussian","None",13.96578,14.29735,1.093881E-02,"SIRFP",2.630178E-03,2.135806E-04,1.341268E-04,1.191149E-03,446954.7,70532.71,12223.41,0,0,0,0
+
+Condition Table (Acquire/Processing Parameters) ===============================
+1
+"Target","Filter","Thick.(um)","kV","uA","Det.Type","Det.Filter","Thick.(um)","Atmos","Preset Time","Acq.Time","Smooths","Escape","Sum","Backgrd.","Back.File","Blank","Blank File"
+"C/R Ratio","Compton(c/s)","ROI-Low","ROI-High","Rayleigh(c/s)","ROI-Low","ROI-High","Monitor"
+"Ag","None",0,35,15,"Si pin","None",0,"Air",300,226.23,2,"Yes","Yes","Auto","","No",""
+"Yes",225.533,21.36,21.74,19.43123,21.74,22.44,0
+
+Detector Parameters ===========================================================
+"Det.Z","FWHM(eV)","Type","Model","Area(mm2)","Coll.(mm)","Thk.(mm)","Ice(nm)"
+14,165,2,0,7,5,.3,0
+"Contact(Z)","Cont.Thk(nm)","DL(um)","Azimuth","DetAngle","Alpha","Pressure(Torr)"
+79,0,0,0,45,0,0
+
+Window Parameters =============================================================
+"Wnd.Type","Thick(um)","Coat(Z)","Coat(nm)","C Cont(nm)","Grid(nm)","Gr.Fract","Grid2(Z)","Grid2(nm)","Gr2.Fract"
+1,25.4,13,0,0,0,0,0,0,0
+
+Geometry Parameters ===========================================================
+34,0,0,24,75,0,57.5,132.5,0,0
+
+Tube Parameters ===============================================================
+47,1,3,0,1,0,4,90,125,"CapOptic.txt","TubeFile.txt",90,1
+4,100
+8,64
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+0,0
+
+Substrate Ratioing is OFF
+
+FP Cal. Setup: 0 = Standardless, 1 = One_Standard, 2+ = Multi_Standard ========
+1
+"SIRCalFilename: ","C:\Archivos de programa\Amptek\ADMCA\INVESTIGACION 2011-2015\Proyecto FORINVES\PASTOS\Calibracion sistema FP-Compton Rayleigh\FRX C-R 4 muestras.sir"
+"ReferenceLibraryFilename: ",""
+
