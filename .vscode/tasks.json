@@ -18,10 +18,10 @@
                 "panel": "shared"
             },
             "args": [
-                "-g",
+                "-g", 
+                "DataBase.cpp",
                 "-o", 
-                "DataBase.exe", 
-                "DataBase.cpp"
+                "DataBase.exe"
             ],  
             // Use the standard less compilation problem matcher.
             "problemMatcher": {

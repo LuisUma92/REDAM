@@ -2,12 +2,17 @@
 versión 0.2.0
 */
 #pragma once
+//=================================
+#include <iostream>
 #include <string>
 #include <vector>
 #include <sstream>
 #include <fstream>
 #include <stdlib.h>
 #include <algorithm>
+//=================================
+using namespace std;
+//=================================
 
 class Pastilla{
 protected:
@@ -33,7 +38,7 @@ public:
 	// ----------------> Misc <----------------
 	//
 	/* 
-	TFR.h::Pastilla::TFR::getFull()
+	Pastilla.h::Pastilla::TFR::getFull()
 
 	Parameters:
 	
@@ -45,7 +50,7 @@ public:
 	*/
 	virtual string getFull() = 0;
 	/*
-	TFR.h::Pastilla::getPos(find, searchHere)
+	Pastilla.h::Pastilla::getPos(find, searchHere)
 
 	Parameters:
 		string find:
@@ -69,7 +74,7 @@ public:
 		}
 	};
 	/*
-	TFR.h::Pastilla::readMyFile(myFilePath)
+	Pastilla.h::Pastilla::readMyFile(myFilePath)
 
 	Parameters:
 		string myFilePath:
@@ -106,11 +111,11 @@ private:
 	vector<string> elements;
 	int rows, cols;
 public:
-	TFR();
+	TFR(){ };
 	TFR(string myName){
-		setPastilla(myName);
+		TFR::setPastilla(myName);
 	};
-	~TFR();
+	~TFR(){ };
 	//
 	// ----------------> Definition of the seting functions <----------------
 	//
@@ -176,7 +181,7 @@ public:
 	// Get columns number
 	int getCols() { return cols; }
 	/* 
-	TFR.h::Pastilla::TFR::getFull()
+	Pastilla.h::Pastilla::TFR::getFull()
 
 	Parameters:
 	
@@ -209,7 +214,7 @@ public:
 	// ----------------> Misc <----------------
 	//
 	/* 
-	TFR.h::Pastilla::TFR::getValue(element, header)
+	Pastilla.h::Pastilla::TFR::getValue(element, header)
 		This function extract an specific value from tha table
 
 	Parameters:
@@ -239,6 +244,11 @@ private:
 	vector<int> rawData;
 	float calibration[2][2];
 public:
+	MCA(){ };
+	MCA(string myName){
+		MCA::setPastilla(myName);
+	};
+	~MCA(){ };
 	//
 	// ----------------> Definition of the seting functions <----------------
 	//
@@ -287,7 +297,7 @@ public:
 	// ----------------> Definition of the geting function <----------------
 	//
 	/* 
-	TFR.h::Pastilla::MCA::getFull()
+	Pastilla.h::Pastilla::MCA::getFull()
 
 	Parameters:
 	
@@ -307,7 +317,7 @@ public:
 		return myTable;
 	};
 	/* 
-	TFR.h::Pastilla::MCA::getHisto(save = "false")
+	Pastilla.h::Pastilla::MCA::getHisto(save = "false")
 
 	Parameters:
 		bool save: conditional that diferenciate from save a file or not.
@@ -319,7 +329,7 @@ public:
 	*/
 	void getHisto(bool save = "false") {};
 	/* 
-	TFR.h::Pastilla::MCA::getRois()
+	Pastilla.h::Pastilla::MCA::getRois()
 
 	Parameters:
 
@@ -331,7 +341,7 @@ public:
 	*/
 	int getRois() {};
 	/* 
-	TFR.h::Pastilla::MCA::getRois(formula = "true")
+	Pastilla.h::Pastilla::MCA::getRois(formula = "true")
 
 	Parameters:
 		bool formula: 

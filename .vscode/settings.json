@@ -25,7 +25,8 @@
         "system_error": "cpp",
         "type_traits": "cpp",
         "typeinfo": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "utility": "cpp"
     },
     "python.linting.enabled": false,
     "python.pythonPath": "C:\\Program Files\\Python36\\python.exe",
