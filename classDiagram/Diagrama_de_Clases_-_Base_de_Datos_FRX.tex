@@ -92,19 +92,21 @@ node[near end, below]{#3};
 	\end{class}
 	
 	\begin{abstractclass}[text width = 9.5 cm]{Pastilla}{10,0}
-		\attribute{\# pastillaPath : string}
+		\attribute{\# dirPath : string}
 		\attribute{\# pName : string}
 		\attribute{\# info : vector<string>}
 		%-------------------------------------------------%		
 		\operation{Pastilla()}
 		\operation{$\sim$Pastilla()}
 		\operation[0]{+ setPastilla(myName : string) : void}
+		\operation[0]{+ setDirPath(myPath : string) : void}
 		\operation{+ setInfo(infoPath="./Informacion.csv" : string) : void}
 		\operation{+ getInfo() : vector<string>}
-		\operation{+ getPastillaPath() : string}
+		\operation{+ getdirPath() : path}
 		\operation[0]{+ getFull() : string}
 		\operation{+ getPos(string find : string, searchHere : vector<string>)  : int}
 		\operation{+ readMyFile(myFilePath : string) : vector<string>}
+		\operation{+ isItDir(myPath : path, fileType : string ) : void}
 	\end{abstractclass}
 	
 	\composition{Pastilla}{}{}{Muestra}
@@ -120,6 +122,7 @@ node[near end, below]{#3};
 		\operation{TFR()}
 		\operation{TFR(myName : string)}
 		\operation{$\sim$TFR()}
+		\operation{+ setDirPath(myPath : string) : void}
 		\operation{+ setPastilla(myName : string) : void}
 		\operation{+ getHeader() : vector<string>}
 		\operation{+ getElements() : vector<string>}
@@ -138,11 +141,12 @@ node[near end, below]{#3};
 		\operation{MCA()}
 		\operation{MCA(myName : string)}
 		\operation{$\sim$MCA()}
+		\operation{+ setDirPath(myPath : string) : void}
 		\operation{+ setPastilla(myName : string) : void}
 		\operation{+ getFull() : string}
-		\operation{+ getHisto(save = "false" : bool) : void}
+		\operation{+ getHisto(save = false : bool) : void}
 		\operation{+ getRois() : vector<int[2]>}
-		\operation{+ getCalibration(formula = "true" : bool) : string}
+		\operation{+ getCalibration(formula = true : bool) : string}
 	\end{class}
 	
 \end{tikzpicture}
