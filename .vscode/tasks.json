@@ -4,6 +4,36 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Build Xelatex",
+            "command": "cd C:/MyFiles/Documents/U/Física/FRX/FRX-Ambiental/RESULTADOS-Suelo_Pastos_2014-2016/Base_de_datos/classDiagram && xelatex",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "args": [
+                "-synctex=1",
+                "-file-line-error",
+                "-interaction=nonstopmode",
+                "Diagrama_de_Clases_-_Base_de_Datos_FRX.tex"
+            ],
+            "problemMatcher": {
+                "owner": "tex",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
             "label": "Build Data Base",
             "type": "shell",
             "command": "g++",
@@ -18,15 +48,22 @@
                 "panel": "shared"
             },
             "args": [
-                "-g", 
+                // "-g",
                 "DataBase.cpp",
-                "-o", 
-                "DataBase.exe"
-            ],  
-            // Use the standard less compilation problem matcher.
+                // "stdafx.cpp",
+                "-o",
+                "DataBase.exe",
+                // ">build.log 2>&1"
+                // ,
+                // "-lboost_system",
+                // "-lboost_filesystem"
+            ],
             "problemMatcher": {
                 "owner": "cpp",
-                "fileLocation": ["relative", "${workspaceRoot}"],
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}"
+                ],
                 "pattern": {
                     "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
                     "file": 1,
@@ -37,7 +74,5 @@
                 }
             }
         }
-            
-        
     ]
 }
