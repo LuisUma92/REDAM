@@ -1,22 +1,24 @@
 /*
-versión 0.2.0
+version 0.2.0
 */
 #pragma once
 //=================================
-#include <iostream>
+// #include <iostream>
 #include <string>
 #include <vector>
 #include <sstream>
 #include <fstream>
 #include <stdlib.h>
 #include <algorithm>
+#include <boost/filesystem.hpp>
 //=================================
+using namespace boost::filesystem;
 using namespace std;
 //=================================
 
 class Pastilla{
 protected:
-	string pastillaPath = "";
+	path dirPath;
 	string pName;
 	vector<string> info;
 public:
@@ -26,6 +28,7 @@ public:
 	// ----------------> Definition of the seting functions <----------------
 	//
 	virtual void setPastilla(string myName) = 0;
+	virtual void setDirPath(string myPath) = 0;
 	void setInfo(string infoPath = ".\\Informacion.csv"){
 		
 	};
@@ -33,7 +36,7 @@ public:
 	// ----------------> Definition of the geting functions <----------------
 	//
 	vector<string> getInfo(){return info;};
-	string getPastillaPath(){return pastillaPath; };
+	path getDirPath(){return dirPath; };
 	//
 	// ----------------> Misc <----------------
 	//
@@ -83,7 +86,7 @@ public:
 		vector<string> lineasTemp:
 	*/
 	vector<string> readMyFile(string myFilePath){
-		ifstream myFile(myFilePath); 
+		std::ifstream myFile(myFilePath); 
 		vector<string> lineasTemp;
 		string  Linea;
 		// Error check
@@ -102,6 +105,25 @@ public:
 		myFile.close();
 		return lineasTemp;
 	};
+	/*
+	Pastilla.h::Pastilla::isItDir(myPath)
+
+	Parameters:
+		path myPath:
+
+	Returns:
+	*/
+	void isItDir(path myPath, string fileType){
+		string tempS;
+		while(exists(myPath)==false){
+			cout << "Write the path to the directory that contain "+ fileType +" files" << endl;
+			cin >> tempS;
+			setDirPath(tempS);
+			if(exists(myPath)==false){
+				cout << "We are having problems with the directory, try again." << endl;
+			};
+		};
+	};
 };
 
 class TFR : public Pastilla{
@@ -119,32 +141,34 @@ public:
 	//
 	// ----------------> Definition of the seting functions <----------------
 	//
+	void setDirPath(string myPath = ".\\tfr\\"){
+		dirPath = myPath;
+		isItDir(dirPath, "TFR");
+	};
 	void setPastilla(string myName) {
 		// Function variable declaration
-		pastillaPath = ".\\tfr\\" + myName;
+		setDirPath();
 		pName = myName;
-		// cout << "\n Initializing pastilla on path" << pastillaPath;
+		// cout << "\n Initializing pastilla on path" << dirPath;
 		vector<string> lineasTemp;
 		vector<string> tempVec;
 		int length;
 		string Linea;
 		string tmp;
-		lineasTemp = readMyFile(pastillaPath);
+		lineasTemp = readMyFile(dirPath.string()+pName);
 		// Complete the table matrix
 		length = stoi(lineasTemp[26].c_str()) + 28;
 		// cout << "\n 'length' have a size of " +  to_string(length) ;
-		for (int i = 28; i < length; i++)
-		{
+		for (int i = 28; i < length; i++){
 			tempVec.clear();
 			stringstream line(lineasTemp[i]);
-			while (getline(line, tmp, ','))
-			{
+			while (getline(line, tmp, ','))	{
 				tmp.erase (remove(tmp.begin(), tmp.end(), '"'), tmp.end());
 				tempVec.push_back(tmp);
-			}
+			};
 			table.push_back(tempVec);
 			// cout << "\n " + to_string(i);
-		}
+		};
 		rows = table.size();
 		// cout << "\n You expect to have " << to_string(rows) << " rows";
 		cols = table[0].size();
@@ -156,7 +180,7 @@ public:
 		{
 			tmp.erase (remove(tmp.begin(), tmp.end(), '"'), tmp.end());
 			headers.push_back(tmp);
-		}
+		};
 		// Write the elemnts list
 		// cout << "\n Creating elemts \n";
 		length = stoi(lineasTemp[26].c_str());
@@ -165,7 +189,7 @@ public:
 			elements.push_back(table[i][0]);
 			// cout << "\n " + to_string(i);
 			// cout << "\n " + elements[i];
-		}
+		};
 		//  cout << "\n End of the initiation \n --------------------><-------------------- \n\n";
 		//  cout << getFull();
 	}
@@ -173,13 +197,13 @@ public:
 	// ----------------> Definition of the geting function <----------------
 	//
 	// Get Header
-	vector<string> getHeader() { return headers; }
+	vector<string> getHeader() { return headers; };
 	// Get Elements
-	vector<string> getElements() { return elements; }
+	vector<string> getElements() { return elements; };
 	// Get rows number
-	int getRows() { return rows; }
+	int getRows() { return rows; };
 	// Get columns number
-	int getCols() { return cols; }
+	int getCols() { return cols; };
 	/* 
 	Pastilla.h::Pastilla::TFR::getFull()
 
@@ -197,19 +221,19 @@ public:
 		for (int i = 0; i < cols; i++)
 		{
 			myTable += headers[i];
-		}
+		};
 		myTable += "\n";
 		for (int i = 0; i < rows; i++)
 		{
 			for (int j = 0; j < cols; j++)
 			{
 				myTable += table[i][j]+",";
-			}
+			};
 			myTable += "\n";
 
-		}
+		};
 		return myTable;
-	}
+	};
 	//
 	// ----------------> Misc <----------------
 	//
@@ -252,16 +276,20 @@ public:
 	//
 	// ----------------> Definition of the seting functions <----------------
 	//
+	void setDirPath(string myPath = ".\\mca\\"){
+		dirPath = myPath;
+		isItDir(dirPath, "MCA");
+	};
 	void setPastilla(string myName){
+		setDirPath();
 		pName = myName;
 		// Function variable declaration
-		pastillaPath = ".\\mca\\" + pName;
-		// cout << "\n Initializing pastilla on path" << pastillaPath;
+		// cout << "\n Initializing pastilla on path" << dirPath;
 		vector<string> lineasTemp;
 		int start, length, tmp, j = 0;
 		float ftmp;
 		string sTmp;
-		lineasTemp = readMyFile(pastillaPath);
+		lineasTemp = readMyFile(dirPath.string()+pName);
 		length = lineasTemp.size();
 		for (int i = 28; i < length; i++){
 			if(lineasTemp[i] == "<<CALIBRATION>>"){
@@ -317,7 +345,7 @@ public:
 		return myTable;
 	};
 	/* 
-	Pastilla.h::Pastilla::MCA::getHisto(save = "false")
+	Pastilla.h::Pastilla::MCA::getHisto(save = false)
 
 	Parameters:
 		bool save: conditional that diferenciate from save a file or not.
@@ -327,7 +355,7 @@ public:
 	Operation:
 		Generate a histogram that represent the spectrum.
 	*/
-	void getHisto(bool save = "false") {};
+	void getHisto(bool save = false) {};
 	/* 
 	Pastilla.h::Pastilla::MCA::getRois()
 
@@ -341,7 +369,7 @@ public:
 	*/
 	int getRois() {};
 	/* 
-	Pastilla.h::Pastilla::MCA::getRois(formula = "true")
+	Pastilla.h::Pastilla::MCA::getRois(formula = true)
 
 	Parameters:
 		bool formula: 
@@ -352,7 +380,7 @@ public:
 	Operation:
 		Get string with calibration.
 	*/
-	int getCalibration(bool formula = "true") {};
+	int getCalibration(bool formula = true) {};
 	//
 	// ----------------> Misc <----------------
 	//
