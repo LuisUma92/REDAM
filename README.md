@@ -1,4 +1,4 @@
-# DataBase
+# REDAM - RESULT DATA MANAGER
 
 This proyect contain a basic classes to facilitade the analisis, data recording and access for the XRF espectrum (.mca) and the estandar output for CrossRoads Scientific XRF-FP (.TFR).
 
