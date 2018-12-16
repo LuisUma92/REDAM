@@ -1,15 +1,17 @@
-#include "stdafx.h"
-#include ".\\lib\\h.h"
-#include <windows.h>
-#define MY_DLL __declspec(dllexport)
+#include "./include/h.hh"
+//#define MY_DLL __declspec(dllexport)
 
 int main() {
-	string archivo; 
+
+	//std::filesystem::path mypath:
+
+	
+	std::string archivo; 
 	archivo = "PS0905JN";
-	Muestra myMuestra = archivo;
+	Muestra myMuestra = Muestra(archivo);
 	float prueba;
 	prueba = myMuestra.promedioSimple("Fe");
-	cout << "\n" + to_string(prueba) + "\n--------------------><-------------------- \n\n";
-	cin.get();
+	std::cout << "\n" + std::to_string(prueba) + "\n--------------------><-------------------- \n\n";
+	std::cin.get();
 	return 0;
 }
