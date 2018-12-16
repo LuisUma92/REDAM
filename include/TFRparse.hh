@@ -7,11 +7,6 @@ version 0.2.0
  */
 #pragma once
 //================================= ooOOOoo =================================
-#include <string>
-#include <vector>
-#include <iostream>
-#include <sstream>
-#include <fstream>
 #include <algorithm>
 #include "Pastilla.hh"
 //================================= ooOOOoo =================================
